@@ -14,14 +14,12 @@ Andalusian university entrance examination (EBAU).
 ## Repository contents
 ├── DEAba_analysis.R # Main analysis: DEAba methodology evaluation
 ├── EBAU_analysis.R # Secondary analysis: entrance exam content analysis
-├── data/
-│ ├── 0_BQM_marks_ordered.xlsx # Final theoretical exam marks, by student/year
-│ ├── 1_BQM_PreviousKnowledgePlusOthers_ordered.xlsx # Diagnostic test + 18-item perception survey
-│ ├── 2_BQM_DEASurvey_ordered.xlsx # 5-item DEAba perception survey (2022/2023–2024/2025)
-│ ├── 3_BiologyIndices_ordered.xlsx # Institutional degree-level indices (annual aggregates)
-│ └── Resumen_Selectividad.xlsx # EBAU exam content coding (2001–2024)
+├── 0_BQM_marks_ordered.xlsx # Final theoretical exam marks, by student/year
+├── 1_BQM_PreviousKnowledgePlusOthers_ordered.xlsx # Diagnostic test + 18-item perception survey
+├── 2_BQM_DEASurvey_ordered.xlsx # 5-item DEAba perception survey (2022/2023–2024/2025)
+├── 3_BiologyIndices_ordered.xlsx # Institutional degree-level indices (annual aggregates)
+├── Resumen_Selectividad.xlsx # EBAU exam content coding (2001–2024)
 └── README.md
-
 
 All datasets are fully anonymized. No student identifiers are included; the
 `Student` column in the marks/survey files is an arbitrary numeric code with
